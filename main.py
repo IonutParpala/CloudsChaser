@@ -81,9 +81,8 @@ def analizeaza_si_deseneaza(lista_localuri):
     plt.ylim(0, 5.5)
     plt.xticks(rotation=45, ha='right') 
     plt.tight_layout() 
-    
     plt.savefig("top_narghilea.png")
-    print(f"\nAi un top 3 din partea noastra 'top_narghilea.png'!")
+    print(f"\nAi un top din partea noastra 'top_narghilea.png'!")
 
     recomandare = random.choice(top_localuri)
     print(f"\nNu te-ai decis singur? Iti recomanda un alt pasionat ca tine! Încearcă la {recomandare.nume}!")
